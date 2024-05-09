@@ -4,58 +4,59 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #FAFAF9;
     font-family: Sora;
 }
-.main{
+
+.main {
     background: #FFFFFF;
-    /* background: red; */
-    width: 368px;
-    height: 398px;
-    margin:164px auto auto auto;
-    border-radius: 16px;
-    padding: 16px 15px 15px 16px;
+    width: 23em;
+    height: 24.875em;
+    margin: 10.25em auto auto auto;
+    border-radius: 1em;
+    padding: 1em 0.938em;
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 0.813em;
 }
 
 
-img{
+img {
     display: block;
-    width:336px;
+    width: 21em;
     height: auto;
-    border-radius:8px;
+    border-radius: 0.5em;
     margin-right: auto;
     margin-left: auto;
 }
 
-.design{
-    background:#E6D6FC;
+.design {
+    background: #E6D6FC;
     color: #883AE1;
     border-radius: 1em;
     width: 6em;
-    padding:3px 2px;
+    padding: 0.188em 0.125em;
     text-align: center;
     font-weight: bold;
     font-size: 0.625rem;
 }
 
-.heading{
+.heading {
     color: #20293A;
     font-size: 1.125rem;
 }
-.para{
+
+.para {
     color: #6C727F;
     border-bottom: 2px solid #E5EAF0;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
     font-size: 0.875rem;
     line-height: 1.6em;
 }
 
-.author{
-    color:#6C727F;
+.author {
+    color: #6C727F;
     padding-top: 10px;
     font-size: 0.75rem;
 }
